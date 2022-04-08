@@ -463,7 +463,7 @@ namespace Paket_Barkod_Kontrol
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImage = global::Paket_Barkod_Kontrol.Properties.Resources._ebd2a732;
+            this.BackgroundImage = global::Paket_Barkod_Kontrol.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(1239, 503);
             this.Controls.Add(this.panel_eksikleri_goster);
             this.Controls.Add(this.label_info);

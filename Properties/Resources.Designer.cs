@@ -63,9 +63,9 @@ namespace Paket_Barkod_Kontrol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _ebd2a732 {
+        internal static System.Drawing.Bitmap Background {
             get {
-                object obj = ResourceManager.GetObject("\'ebd2a732", resourceCulture);
+                object obj = ResourceManager.GetObject("Background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Paket_Barkod_Kontrol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Barcode_Scanner_Model_AS9500_F07_watermarked_2k {
+        internal static System.Drawing.Bitmap Barcode_Scanner {
             get {
-                object obj = ResourceManager.GetObject("Barcode Scanner Model AS9500.F07.watermarked.2k", resourceCulture);
+                object obj = ResourceManager.GetObject("Barcode_Scanner", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace Paket_Barkod_Kontrol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Open_Folder_icon__1_ {
+        internal static System.Drawing.Bitmap Open_Folder_icon {
             get {
-                object obj = ResourceManager.GetObject("Open-Folder-icon (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("Open-Folder-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

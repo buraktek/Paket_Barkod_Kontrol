@@ -320,7 +320,7 @@ namespace Paket_Barkod_Kontrol
             this.button_Kayitlari_Listele.BackColor = System.Drawing.Color.MintCream;
             this.button_Kayitlari_Listele.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_Kayitlari_Listele.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button_Kayitlari_Listele.Image = global::Paket_Barkod_Kontrol.Properties.Resources.Open_Folder_icon__1_;
+            this.button_Kayitlari_Listele.Image = global::Paket_Barkod_Kontrol.Properties.Resources.Open_Folder_icon;
             this.button_Kayitlari_Listele.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Kayitlari_Listele.Location = new System.Drawing.Point(560, 504);
             this.button_Kayitlari_Listele.Name = "button_Kayitlari_Listele";
@@ -334,7 +334,7 @@ namespace Paket_Barkod_Kontrol
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Paket_Barkod_Kontrol.Properties.Resources.Barcode_Scanner_Model_AS9500_F07_watermarked_2k;
+            this.pictureBox1.Image = global::Paket_Barkod_Kontrol.Properties.Resources.Barcode_Scanner;
             this.pictureBox1.Location = new System.Drawing.Point(460, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 36);
@@ -358,7 +358,7 @@ namespace Paket_Barkod_Kontrol
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Paket_Barkod_Kontrol.Properties.Resources._ebd2a732;
+            this.BackgroundImage = global::Paket_Barkod_Kontrol.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(832, 709);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label_model_no_value);
@@ -375,7 +375,7 @@ namespace Paket_Barkod_Kontrol
             this.Controls.Add(this.listView_kontrol_edilen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Paket Seri No Kontrol Yazılımı v1.0";
+            this.Text = "Paket Seri No Kontrol Yazılımı v1.11";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_box_state)).EndInit();

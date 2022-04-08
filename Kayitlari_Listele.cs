@@ -26,6 +26,7 @@ namespace Paket_Barkod_Kontrol
             InitializeComponent();
 
             Tum_Database_Goruntule();
+            
         }
 
         private void Tum_Database_Goruntule()
@@ -91,14 +92,15 @@ namespace Paket_Barkod_Kontrol
                             kayit.data += eksik_sayac_sayisi.ToString() + ";" + sayac_no_bas_kismi + i.ToString() + Environment.NewLine;
                         }
                     }
-                    panel_eksik_sayac_listele.Visible = true;
+                    panel_eksikleri_goster.Visible = true;
                     if (eksik_sayac_sayisi > 0)
                     {
-                        panel_eksikleri_goster.Visible = true;
+                        panel_eksik_sayac_listele.Visible = true;
                         label_eksik_sayac_sayisi.Text = "Eksik Sayaç Sayısı: " + eksik_sayac_sayisi.ToString();
                     }
                     else
                     {
+                        label_basarili_mesaj.Text = tb_sayac_no_baslangic.Text + " - " + tb_sayac_no_bitis.Text + "  Aralığında Eksik Yoktur.";
                         panel_eksik_sayac_yok.Visible = true;
                     }
                     label_info.Text += "  |  Eksik Sayaç Sayısı: " + eksik_sayac_sayisi.ToString();
@@ -115,7 +117,7 @@ namespace Paket_Barkod_Kontrol
             int harf_index = 0;
             string rakamlar = "0123456789";
             char[] data_char = data.ToCharArray();
-            for (int i = data_char.Length - 1; i > 0; i--)
+            for (int i = data_char.Length - 1; i >= 0; i--)
             {
                 if (rakamlar.IndexOf(data_char[i]) != -1)
                 {
@@ -176,14 +178,15 @@ namespace Paket_Barkod_Kontrol
                                 kayit.data += eksik_koli_sayisi.ToString() + ";" + koli_no_bas_kismi + i.ToString() + Environment.NewLine;
                             }
                         }
-                        panel_eksik_sayac_listele.Visible = true;
+                        panel_eksikleri_goster.Visible = true;
                         if (eksik_koli_sayisi > 0)
                         {
-                            panel_eksikleri_goster.Visible = true;
+                            panel_eksik_sayac_listele.Visible = true;
                             label_eksik_sayac_sayisi.Text = "Eksik Koli Sayısı: " + eksik_koli_sayisi.ToString();
                         }
                         else
                         {
+                            label_basarili_mesaj.Text = tb_kutu_no_baslangic.Text + " - " + tb_kutu_no_bitis.Text + "  Aralığında Eksik Yoktur.";
                             panel_eksik_sayac_yok.Visible = true;
                         }
                         label_info.Text = tb_kutu_no_baslangic.Text + " - " + tb_kutu_no_bitis.Text + "  Aralığındaki Kayıtlar Gösteriliyor   |   Gösterilen Koli Sayısı: " + (koli_no_bitis - koli_no_baslangic).ToString() + "  |  Eksik Koli Sayısı: " + eksik_koli_sayisi.ToString();
@@ -220,7 +223,7 @@ namespace Paket_Barkod_Kontrol
         {
             panel_eksikleri_goster.Visible = false;
             panel_eksik_sayac_yok.Visible = false;
-            panel_eksikleri_goster.Visible = false;
+            panel_eksik_sayac_listele.Visible = false;
         }
 
         private void button_eksikleri_kaydet_Click(object sender, EventArgs e)
