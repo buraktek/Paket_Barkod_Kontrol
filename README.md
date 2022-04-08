@@ -1,6 +1,6 @@
 ﻿# Paket Barkod Kontrol Yazılımı
 
-##Paketleme öncesi ürünlerin kutuya eksik yada yanlış koyulmaması için kullanılacak bir yazılımdır. Koli üzerindeki kare barkod okutululur ve database üzerinden koli içerisindeki sayaçların bilgisi ile karşılaştırılır. Bu kayıtlara göre eksik ve zaten barkod okutulan ürünler listelenir. Koli içerisindeki tüm ürünlerin barkodları okutulduğunda paketlemeye hazır olduğunu söyler. 
+### Paketleme öncesi ürünlerin kutuya eksik yada yanlış koyulmaması için kullanılacak bir yazılımdır. Koli üzerindeki kare barkod okutululur ve database üzerinden koli içerisindeki sayaçların bilgisi ile karşılaştırılır. Bu kayıtlara göre eksik ve zaten barkod okutulan ürünler listelenir. Koli içerisindeki tüm ürünlerin barkodları okutulduğunda paketlemeye hazır olduğunu söyler. 
 
 >Uygulama önizlemesi
 
