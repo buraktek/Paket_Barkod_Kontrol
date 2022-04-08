@@ -162,5 +162,11 @@
   <ItemGroup>
     <None Include="Resources\Barcode Scanner Model AS9500.F07.watermarked.2k.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

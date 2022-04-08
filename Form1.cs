@@ -14,6 +14,7 @@ namespace Paket_Barkod_Kontrol
     {
         string koli_no = "";
         string urun_kodu = "";
+        int kolideki_sayac_sayisi;
         ImageSources images = new ImageSources();
         int label_action_index = 0;
         public Form1()
@@ -68,6 +69,7 @@ namespace Paket_Barkod_Kontrol
                     {
                         MessageBox.Show("Okutulan barkod yanlış. Lütfen kutu üzerindeki Kare Kodu okutunuz!");
                     }
+                    kolideki_sayac_sayisi = datas.Length;
                 }
                 else
                 {
@@ -164,7 +166,7 @@ namespace Paket_Barkod_Kontrol
             {
                 Package paket = new Package();
                 paket.Meter_ID = sayac_no;
-                paket.Meter_Count_In_Box = listView_kontrol_edilen.Items.Count;
+                paket.Meter_Count_In_Box = kolideki_sayac_sayisi;
                 paket.Package_Code = koli_no;
                 paket.Product_Code = urun_kodu;
                 paket.Transferred_Public = "0";
