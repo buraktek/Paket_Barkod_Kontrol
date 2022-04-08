@@ -181,6 +181,7 @@
   <ItemGroup>
     <Content Include="barcode.ico" />
     <Content Include="Resources\Kayitlari_Listele.gif" />
+    <Content Include="Resources\Mukerrer_Kayit.gif" />
     <Content Include="Resources\Software.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
