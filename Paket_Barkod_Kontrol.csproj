@@ -116,6 +116,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\%27d6ceb2c9.png%27" />
     <None Include="Resources\checked.png" />
     <None Include="Resources\Spinner-1s-200px.gif" />
@@ -179,6 +180,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="barcode.ico" />
+    <Content Include="Resources\Kayitlari_Listele.gif" />
+    <Content Include="Resources\Software.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
